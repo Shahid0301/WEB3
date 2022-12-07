@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tool {
+    height: 8rem;
+    background-color: #576574;
+    display: flex;
+    align-items: center;
+}
+
+.tool>* {
+    margin-left: 5rem;
+    border-radius: 2px;
+}
+
+.toolbox-priority-cont {
+    height: 4.5rem;
+    width: 15rem;
+    background-color: #8395a7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-btn-cont {
+    height: 3.5rem;
+    width: 6rem;
+    background-color: #8395a7;
+    display: flex;
+}
+
+.action-btn-cont>* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 50%;
+    color: #c8d6e5;
+}
+
+.color {
+    height: 2.2rem;
+    width: 2rem;
+    background-color: #dfe4ea;
+    border-radius: 2px;
+}
+
+.lightpink {
+    background-color: lightpink;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+/* Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@Shahid0301 
+Shahid0301
+/
+WEB3
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Quick setup — if you’ve done this kind of thing before
+or	
+https://github.com/Shahid0301/WEB3.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+…or create a new repository on the command line
+echo "# WEB3" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Shahid0301/WEB3.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/Shahid0301/WEB3.git
+git branch -M master
+git push -u origin master
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+ ProTip! Use the URL for this page when adding GitHub as a remote.
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+ */
+.black {
+    background-color: black;
+}
+
+.action-btn-cont>*:hover {
+    background: white;
+}
+
+.mode {
+    height: 50vh;
+    width: 45vw;
+    background-color: #576574;
+    position: absolute;
+    top: calc((100vh - 50vh)/2);
+    left: calc((100vw - 45vw)/2);
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.textarea-cont {
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    background-color: #576574;
+    resize: none;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color:white;
+}
+textarea::-webkit-input-placeholder {
+    color: white;
+  }
+  
+
+.priority-colors-cont {
+    height: 100%;
+    width: 25%;
+    background-color: #8395a7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.priority-color {
+    height: 3rem;
+    width: 55%;
+}
+
+.border {
+    border: 5px solid #f5f6fa;
+}
+
+.ticket-cont {
+    height: 13rem;
+    width: 16rem;
+    background-color: #4b4b4b;
+}
+
+.ticket-color {
+    height: 1rem;
+}
+
+.ticket-id {
+    height: 2rem;
+    background-color: #dfe4ea;
+    padding: 0.4rem;
+}
+
+.task-area {
+    height: calc(100% - 1rem - 2rem - 2rem);
+    background-color: #dfe4ea;
+    padding: 0.4rem;
+    outline: none;
+}
+
+.ticket-lock {
+    height: 2rem;
+    display: flex;
+    background-color: #dfe4ea;
+    font-size: 1.5rem;
+    color: #4b4b4b;
+    padding-right: 1rem;
+    justify-content: flex-end;
+}
+
+.main-cont {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
